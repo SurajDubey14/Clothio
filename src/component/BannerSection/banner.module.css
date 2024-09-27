@@ -1,0 +1,31 @@
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.5)), url("/src/assets/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20% 5%;
+  backface-visibility: var(100px);
+  color: white;
+
+}
+
+.banner h1 {
+  font-weight: 600;
+  font-size: 60px;
+  padding-bottom: 16px;
+  width: 70%;
+}
+.banner p {
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 100px;
+}
+/* .banner_right img {
+  filter: drop-shadow(2px 6px 25px #fff);
+  mix-blend-mode: normal;
+} */
+.logoSpan {
+  color: rgb(94, 40, 2);
+  font-size: xx-large;
+  font-weight: bolder;
+}

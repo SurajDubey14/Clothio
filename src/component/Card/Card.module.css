@@ -1,0 +1,54 @@
+.card {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 325px;
+  height: 500px;
+  margin-bottom: 10px;
+}
+.card img {
+  transition: transform 0.3s ease-out;
+}
+.card:hover img {
+  transform: scale(1.2); /* Zoom effect on hover */
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100px;
+  font-family: "Syne", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 20px;
+  position: absolute;
+  bottom: 0;
+  padding: 10px 5px;
+  background-color: black;
+  transition-delay: 3s;
+  transform: translateY(30px);
+  transition: all 0.2s linear;
+  opacity: 0;
+  color: white;
+  cursor: pointer;
+}
+.link .CardTitle {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card:hover .link {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* .CardTitle{
+  position: absolute;
+  background-color: rgb(224, 71, 71);
+  bottom: -15;
+  padding: 2%;
+} */

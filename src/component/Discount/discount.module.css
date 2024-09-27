@@ -1,0 +1,33 @@
+.discount {
+    padding: 10px 0px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: 400;
+    overflow: hidden;
+  }
+  
+  .disContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .disCard {
+    display: block;
+    padding: 0 100px;
+    animation: marquee 15s linear infinite;
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(100%); /* Start just outside the right */
+    }
+    to {
+      transform: translateX(-100%); /* End just outside the left */
+    }
+  }
+  

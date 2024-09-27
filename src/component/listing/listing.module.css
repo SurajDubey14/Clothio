@@ -1,0 +1,15 @@
+.Secitionhead {
+  padding: 20px 0px 10px 20px;
+  text-align: center;
+  font-family: "Syne", sans-serif;
+  font-style: normal;
+  font-size: 50px;
+  font-weight: 600;
+}
+.container_inr {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  padding: 0px 50px;
+}

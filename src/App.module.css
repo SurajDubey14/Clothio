@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.progress_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: red;
+  transform-origin: 0%;
+  z-index: 2;
+}
+.header {
+  background: linear-gradient(
+      rgba(205, 205, 205, 0.2),
+      rgba(196, 188, 188, 0.5)
+    ),
+    url("/public/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+}

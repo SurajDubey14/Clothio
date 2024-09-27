@@ -1,0 +1,77 @@
+.cartContainer {
+  width: 30%;
+  height: auto;
+  margin: 20px 0px;
+  font-weight: 600;
+  font-size: x-large;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 375px;
+  height: 500px;
+  margin-bottom: 10px;
+
+
+  /* max-height: 500px;
+  overflow: hidden; */
+}
+/* .card img {
+  transition: transform 0.3s ease-out;
+}
+.card:hover img {
+  transform: scale(1.2);
+} */
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+  border-radius: 20px;
+  font-family: "Syne", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 20px;
+  position: absolute;
+  bottom: 0;
+  padding: 10px 5px;
+  background-color: black;
+  transition-delay: 3s;
+  transform: translateY(30px);
+  transition: all 0.2s linear;
+  opacity: 0;
+  color: white;
+  cursor: pointer;
+}
+.link .CartCardTitle {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.img:hover .link {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.img img {
+  width: 100%;
+}
+.price {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  gap: 10px;
+  /* justify-content:; */
+}
+.Orgprice {
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: line-through;
+  color: rgb(143, 143, 143);
+}
+.container-inr {
+  /* background-color: yellow; */
+}
