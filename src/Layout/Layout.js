@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../component/Header/Header";
 import Discount from "../component/Discount/Discount";
-import Foter from "../component/Foter/Foter";
+import Footer from "../component/Footer/Footer";
 import style from "../Layout/Layout.module.css";
 const Layout = (props) => {
   return (
@@ -9,7 +9,7 @@ const Layout = (props) => {
       <Discount />
       <Header />
       <div className={style["main-wrp"]}>{props.children}</div>
-      <Foter />
+      <Footer />
     </>
   );
 };

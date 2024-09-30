@@ -2,6 +2,9 @@ import React from "react";
 import style from "../Header/Header.module.css";
 
 import { Link } from "react-router-dom";
+import { RiShoppingBagLine } from "react-icons/ri";
+import { IoPersonOutline } from "react-icons/io5";
+import { IoIosSearch } from "react-icons/io";
 const Header = () => {
   return (
     <>
@@ -17,20 +20,42 @@ const Header = () => {
               <nav>
                 <ul>
                   <li>
-                    <Link to="/Men">Men</Link>
-                    {/* <a href="">Men</a> */}
+                    <Link to="/Men">Home</Link>
                   </li>
                   <li>
-                  <Link to="/Women">Women</Link>
-                    {/* <a href="">Women</a> */}
+                    <Link to="/Women">Collection</Link>
                   </li>
                   <li>
-                  <Link to="/listing">Listing</Link>
-                    {/* <a href="">Children</a> */}
+                    <Link to="/listing">Contact Us</Link>
+                  </li>
+                  <li>
+                    <Link to="/listing">Track Your Order</Link>
                   </li>
                 </ul>
               </nav>
             </div>
+            <div className={style.credential}>
+              <nav>
+                <ul>
+                  <li>
+                    <Link to="/Men">
+                      <IoIosSearch />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/login">
+                      <IoPersonOutline />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/listing">
+                      <RiShoppingBagLine />
+                    </Link>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div className="hamburger"></div>
           </div>
         </div>
       </div>

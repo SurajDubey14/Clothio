@@ -7,10 +7,10 @@ import style from "../src/App.module.css";
 import Slider from "./component/Slider/Silder";
 import Discount from "./component/Discount/Discount";
 // import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Foter from "./component/Foter/Foter";
+import Footer from "./component/Footer/Footer";
 import AppRoutes from "./routes";
 // import Jeans from "./component/listing/Jeans";
-
+import Login from "./Pages/Login/Login";
 
 function App() {
   return (

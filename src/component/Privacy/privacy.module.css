@@ -1,0 +1,11 @@
+.privacy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.container-inr{
+
+  width: 1220px;
+  max-width: 1400px;
+}
