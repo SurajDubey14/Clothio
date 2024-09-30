@@ -27,9 +27,9 @@ const Privacy = () => {
             you view, what websites or search terms referred you to the Site,
             and information about how you interact with the Site. We refer to
             this automatically-collected information as “Device Information.”
-            <h1>
+            <h3>
               We collect Device Information using the following technologies:
-            </h1>
+            </h3>
             <ul>
               <li>
                 – “Cookies” are data files that are placed on your device or
@@ -59,7 +59,7 @@ const Privacy = () => {
               we are talking both about Device Information and Order
               Information.
             </p>
-            <h1>HOW DO WE USE YOUR PERSONAL INFORMATION?</h1>
+            <h3>HOW DO WE USE YOUR PERSONAL INFORMATION?</h3>
             <p>
               We use the Order Information that we collect generally to fulfill
               any orders placed through the Site (including processing your
@@ -80,7 +80,7 @@ const Privacy = () => {
               with the Site, and to assess the success of our marketing and
               advertising campaigns).
             </p>
-            <h1>SHARING YOUR PERSONAL INFORMATION</h1>
+            <h3>SHARING YOUR PERSONAL INFORMATION</h3>
             <p>
               We share your Personal Information with third parties to help us
               use your Personal Information, as described above. We also use
@@ -94,30 +94,30 @@ const Privacy = () => {
               search warrant or other lawful requests for information we
               receive, or to otherwise protect our rights.
             </p>
-            <h1>BEHAVIOURAL ADVERTISING</h1>
+            <h3>BEHAVIOURAL ADVERTISING</h3>
             <p>
               As described above, we use your Personal Information to provide
               you with targeted advertisements or marketing communications we
               believe may be of interest to you.{" "}
             </p>
-            <h1>DO NOT TRACK</h1>
+            <h3>DO NOT TRACK</h3>
             <p>
               Please note that we do not alter our Site’s data collection and
               use practices when we see a Do Not Track signal from your browser.
             </p>
-            <h1>DATA RETENTION</h1>
+            <h3>DATA RETENTION</h3>
             <p>
               When you place an order through the Site, we will maintain your
               Order Information for our records unless and until you ask us to
               delete this information.
             </p>
-            <h1>CHANGES</h1>
+            <h3>CHANGES</h3>
             <p>
               We may update this privacy policy from time to time in order to
               reflect, for example, changes to our practices or for other
               operational, legal or regulatory reasons.
             </p>
-            <h1>CONTACT US</h1>
+            <h3>CONTACT US</h3>
             <p>
               For more information about our privacy practices, if you have
               questions, or if you would like to make a complaint, please
