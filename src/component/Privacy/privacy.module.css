@@ -4,8 +4,15 @@
   justify-content: center;
   width: 100%;
 }
-.container-inr{
-
+.container-inr {
+  margin-top: 20px;
   width: 1220px;
   max-width: 1400px;
+}
+
+.container-inr h3{
+  margin-top: 10px;
+}
+.container-inr ul{
+  padding: 10px 0px 10px 20px;
 }

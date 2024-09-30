@@ -7,7 +7,7 @@ const Privacy = () => {
         <div>
           <p>
             This Privacy Policy describes how your personal information is
-            collected, used, and shared when you visit or make a purchase from
+            collected, used, and shared when you visit or make a purchase from &nbsp;
             <a
               href="
             https://clothio.vercel.app/"
